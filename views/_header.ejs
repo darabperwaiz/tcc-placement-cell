@@ -1,0 +1,16 @@
+<header>
+	<% if (locals.user) { %>
+	<nav class="nav">
+		<div class="nav-wrapper">
+			<a class="navbar-brand" href="/"><img src="/logo.png" alt=""></a>
+			<!-- <a class="navbar-brand" href="/">Welcome <%=locals.user.name%></a> -->
+			<ul class="nav-items">
+				<a class="nav-item" href="/"><i class="fa-solid fa-house"></i> Home</a>
+				<a class="nav-item" href="/company/home">Allocate Interviews</a>
+				<a class="nav-item" href="/users/download-csv">Download Report <i class="fa-solid fa-download"></i> </a>
+				<p class="logout-wrapper"><a class="" href="/users/signout"> <i class="fa-solid fa-arrow-right-from-bracket"></i> Logout </a></p>
+			</ul>
+		</div>
+	</nav>
+	<% } %>
+</header>

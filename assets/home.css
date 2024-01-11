@@ -1,0 +1,39 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.home-container {
+    /* background-color: red; */
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.add-btn a {
+    color: white;
+}
+
+.thead-dark {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 5px;
+}
+
+.thead-dark th {
+    padding: 8px;
+
+}
